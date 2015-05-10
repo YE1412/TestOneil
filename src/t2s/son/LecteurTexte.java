@@ -30,8 +30,7 @@ import t2s.util.*;
  */
 
 public class LecteurTexte{
-
-	int i=0;
+	
     // le path des fichiers de r�gles utilis� pour transformer les mots en phon�mes
     private final static String PATH_REGLE=ConfigFile.rechercher("CHEMIN_REGLES");
     // le fichier pour �crire les wav ou pho
